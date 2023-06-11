@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Bene Ádám CV</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Adam</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profil
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Tanulmányok
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skillek
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Tapasztalat
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Képesítés
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#refrences" class="nav__link">
+                                <i class='bx bx-link-external nav__icon ' ></i>Referenciák
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="/assets/img/me.jpg" alt ="" class="home__img">
+
+                                <h1 class="home__title"> <b>Bene</b> Ádám</h1>
+                                <h3 class="home_profession">Junior fejlesztő</h3>
+                                
+
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Letöltés</a>
+                                </div>
+                            </div>
+                            
+                        
+                        <!-- Theme change button -->
+                        
+    
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon' ></i> 1201, Budapest Kossuth Lajos u. 32
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon' ></i> benea19@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon' ></i> 06203420086
+                            </span>
+                        </div>
+                    </div>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Social Media</h2>
+                        
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/adam-bene-b12581147/" target="blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> adam-bene-b12581147
+                            </a>
+                            <a href="https://www.facebook.com/adambene23/" target="blank" class="social__link">
+                                <i class='bx bxl-facebook social__icon' ></i> @adambene23
+                            </a>
+                            <a href="https://www.instagram.com/benea23/" target="blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon' ></i> @benea23
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Rólam</h2>
+
+                        <p class="profile__description">
+                            Magamat precíz, megbízható és munkájára igényes embernek tartom.Ennek köszönhetően a megszerzett tudást gyorsan és hatékonyan tudom alkalmazni. Szeretek csapatban dolgozni, de egyénileg is megállom a helyem.
+                        </p>   
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Tanulmányok</h2>
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">ÉRETTSÉGI</h3>
+                                    <span class="education__studies">Lóczy Lajos Gimnázium</span>
+                                    <span class="education__year">2007 - 2011</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">SZOFTVERFEJLESZTŐ</h3>
+                                    <span class="education__studies">Ruander Oktatási Központ</span>
+                                    <span class="education__year">2020 - 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skillek</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>JavaScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>C#
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>MSSQL
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>React
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Firebase
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Docker
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Tapasztalat</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Rendszerüzemeltető</h3>
+                                    <span class="experience__company">2022 - 2023 | TR-Soft</span>
+                                    <p class="experience__description">
+                                        Felhasználói támogatás biztosítása szoftveres problémák esetén, rendszerüzemeltetés és hibaelhárítás a munkaállomások, szerverek és hálózati eszközök terén.
+                                        Szoftverek telepítése, frissítése és karbantartása. icketek felvétele és kezelése a felhasználók problémáinak dokumentálása és hatékony megoldása érdekében.
+                                        Adatbázisszerverek üzemeltetése (MSSQL)
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Szerviztechnikus</h3>
+                                    <span class="experience__company">2020 - 2022 | iCentre Hungary Kft.</span>
+                                    <p class="experience__description">
+                                        Apple eszközök bevizsgálása, telepítése, szervizelése, tisztítása, karbantartása. Szervzielés elött és után a szükséges tesztek futtatása.
+                                        Az Apple belső rendszereinek használata: vizsgák, alkatrészek rendelése, kommunikáció nemzetközi kollégákkal
+                                    </p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Képesítés</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Stripe Masterclass With React.js & Node.js</h3>
+                                <p class="certificate__description">
+                                    A Szoftverfejlesztő vizsgára a szakdolgozatomhoz végeztem el ezt a Udemy-s képzést. Egy webshop felépítését választottam. A felhasználó tud regisztrálni, és belépés után vagy akár mint vendég felhasználó a terméket a kosárba rakhatja és a Stripe integrálásával bankkártyás fizetési lehetősége is van.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Complete Python Developer in 2023: Zero to Mastery
+                                </h3>
+                                <p class="certificate__description">
+                                    - Folyamatban<br>
+                                    Programozás alapjai, OOP, Tesztelés, Webfejlesztés, Scraping, Scripting, Machine Learning + Data Science<br>
+                                    A tanfolyam a Python nyelv elsajátítására ad lehetőséget a különböző felhasználási területei szerint.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section__title">Referenciák</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Szervizvezető  </span>
+                                <h3 class="references__title">Mezei Csaba</h3>
+                                <ul class="references__contanct">
+                                    <li>Telefon: +36 30 517 7317</li>
+                                </ul>
+
+                                <span class="references__subtitle">Weboldal</span>
+                                <h3 class="references__title">www.andreaapartman.com</h3>
+
+                                <span class="references__subtitle">CV Weboldal</span>
+                                <h3 class="references__title">www.github.com</h3>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Nyelvek</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Magyar
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Angol
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Német
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Érdeklődés</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bxs-music interests__icon' ></i>
+                                <span class="interests__name">Zene</span>
+                            </div>
+                        
+                                <div class="interests__content">
+                                    <i class='bx bx-run interests__icon' ></i>
+                                    <span class="interests__name">Futás</span>
+                                </div>
+
+                                <div class="interests__content">
+                                    <i class='bx bxs-plane-alt interests__icon'></i>
+                                    <span class="interests__name">Utazás</span>
+                                </div>
+
+                                <div class="interests__content">
+                                    <i class='bx bxs-bowl-hot interests__icon'></i>
+                                    <span class="interests__name">Gasztronómia</span>
+                                </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
